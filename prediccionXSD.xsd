@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+
+<xs:element name="prediccion">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="datosPoblacion">
+                 <xs:complexType>
+                     <xs:sequence>
+                        <xs:attribute name="nombrePoblacion" type="xs:string" use="required"/>
+                          <xs:attribute name="nombreProvincia" type="xs:string" use="required"/>
+                          <xs:attribute name="nombreLocalidad" type="xs:string" use="required"/>
+                    </xs:sequence>
+                 </xs:complexType>
+             </xs:element>
+         <xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType>
+           <xs:sequence>
+               <xs:element name="prediccionTiempo" minOccurs="1">
+                  <xs:complexType>
+                       <xs:sequence>
+                          <xs:attribute name="fecha" type="xs:date" use="required"/>
+                          <xs:attribute name="temperaturaMaxima" type="xs:decimal" use="required"/>
+                          <xs:attribute name="temperaturaMinima" type="xs:decimal" use="required"/>
+                          <xs:attribute name="probabilidadLluvia" type="xs:decimal" use="required"/>
+                        </xs:sequence>
+                   </xs:complexType>
+                </xs:element>
+            <xs:sequence>
+    </xs:complexType>
+</xs:schema>
