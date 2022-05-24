@@ -1,0 +1,33 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE prediccion[
+<!ELEMENT prediccion (datosPoblacion, prediccionTiempo)>
+    <!ELEMENT datosPoblacion (nombrePoblacion, nombreProvincia, nombreLocalidad)>
+        <!ELEMENT nombrePoblacion (#PCDATA)>
+        <!ELEMENT nombreProvincia (#PCDATA)>
+        <!ELEMENT nombreLocalidad (#PCDATA)>
+    <!ELEMENT prediccionTiempo (fecha, temperaturaMaxima, temperaturaMinima, probabilidadLluvia)>
+        <!ELEMENT fecha (#PCDATA)>
+        <!ELEMENT temperaturaMaxima (#PCDATA)>
+        <!ELEMENT temperaturaMinima (#PCDATA)>
+        <!ELEMENT probabilidadLluvia (#PCDATA)>
+]>
+<prediccion>
+    <datosPoblacion>
+        <nombrePoblacion></nombrePoblacion>
+        <nombreProvincia>Mal</nombreProvincia>
+        <nombreLocalidad>Mal</nombreLocalidad>
+    </datosPoblacion>    
+    <prediccionTiempo>
+        <fecha>02-15-2122</fecha>
+        <temperaturaMaxima>24º</temperaturaMaxima>
+        <temperaturaMinima>16º</temperaturaMinima>
+        <probabilidadLluvia>150%</probabilidadLluvia>
+    </prediccionTiempo>
+    <prediccionTiempo>
+        <fecha>03-20-2442</fecha>
+        <temperaturaMaxima>31º</temperaturaMaxima>
+        <temperaturaMinima>28º</temperaturaMinima>
+        <probabilidadLluvia>112%</probabilidadLluvia>
+    </prediccionTiempo>
+</prediccion>
