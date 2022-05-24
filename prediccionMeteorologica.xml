@@ -14,14 +14,20 @@
 ]>
 <prediccion>
     <datosPoblacion>
-        <nombrePoblacion></nombrePoblacion>
-        <nombreProvincia></nombreProvincia>
-        <nombreLocalidad></nombreLocalidad>
+        <nombrePoblacion>Alfajor</nombrePoblacion>
+        <nombreProvincia>Mar de plata</nombreProvincia>
+        <nombreLocalidad>Boca</nombreLocalidad>
     </datosPoblacion>    
     <prediccionTiempo>
-        <fecha></fecha>
-        <temperaturaMaxima></temperaturaMaxima>
-        <temperaturaMinima></temperaturaMinima>
-        <probabilidadLluvia></probabilidadLluvia>
+        <fecha>02-05-2022</fecha>
+        <temperaturaMaxima>24º</temperaturaMaxima>
+        <temperaturaMinima>16º</temperaturaMinima>
+        <probabilidadLluvia>50%</probabilidadLluvia>
+    </prediccionTiempo>
+    <prediccionTiempo>
+        <fecha>03-05-2022</fecha>
+        <temperaturaMaxima>26º</temperaturaMaxima>
+        <temperaturaMinima>18º</temperaturaMinima>
+        <probabilidadLluvia>12%</probabilidadLluvia>
     </prediccionTiempo>
 </prediccion>
