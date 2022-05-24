@@ -1,18 +1,16 @@
 <?xml version ="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="style.css"?>
 <!DOCTYPE prediccion[
-<!ELEMENT prediccion (delante, detras)>
-    <!ELEMENT delante (nombre, apellido, sexo, nacionalidad, fechaNacimiento,fechaValidez)>
-        <!ELEMENT nombre (#PCDATA)>
-        <!ELEMENT apellido (#PCDATA)>
-        <!ELEMENT sexo (calle, numero, ciudad, provincia)>
-        <!ELEMENT nacionalidad (#PCDATA)>
-        <!ELEMENT fechaNacimiento (#PCDATA)>
-        <!ELEMENT fechaValidez (#PCDATA)>
-    <!ELEMENT detras (domicilio, lugarNacimiento, hijoDe)>
-        <!ELEMENT domicilio (#PCDATA)>
-        <!ELEMENT lugarNacimiento (#PCDATA)>
-        <!ELEMENT hijoDe (#PCDATA)>
+<!ELEMENT prediccion (datosPoblacion, prediccionTiempo)>
+    <!ELEMENT datosPoblacion (nombrePoblacion, nombreProvincia, nombreLocalidad)>
+        <!ELEMENT nombrePoblacion (#PCDATA)>
+        <!ELEMENT nombreProvincia (#PCDATA)>
+        <!ELEMENT nombreLocalidad (#PCDATA)>
+    <!ELEMENT prediccionTiempo (fecha, temperaturaMaxima, temperaturaMinima, probabilidadLluvia)>
+        <!ELEMENT fecha (#PCDATA)>
+        <!ELEMENT temperaturaMaxima (#PCDATA)>
+        <!ELEMENT temperaturaMinima (#PCDATA)>
+        <!ELEMENT probabilidadLluvia (#PCDATA)>
 ]>
 <prediccion>
     <datosPoblacion>
